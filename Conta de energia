@@ -1,0 +1,23 @@
+kwh = int(input("quanidade de kwh :"))
+tipo = input(" tipo de instalação - R ou I ou C: ")
+match tipo:
+    case 'R' | 'r':
+        if (kwh <= 500):
+            valor = kwh * 0.40
+        else:
+            valor = kwh * 0.65    
+        print(f"valor da conta em reais e {valor}")    
+    case 'I' | 'i':
+        if (kwh <= 5000):
+            valor = kwh * 0.55
+        else:
+            valor = kwh * 0.60  
+        print(f"valor da conta em reais e {valor}")      
+    case 'C' | 'c':
+        if (kwh <= 1000):
+            valor = kwh * 0.55
+        else:
+            valor = kwh * 0.60
+        print(f"valor da conta em reais e {valor}")  
+    case _:
+        print("erro")                     
