@@ -21,5 +21,5 @@ for x in range(10):
     aux = aux + 1
 
 print(vetor1,' vetor 1')
-print(vetor2, ' vetor 2')
+print(vetor2,' vetor 2')
 print(vetor3,' vetor 3')
