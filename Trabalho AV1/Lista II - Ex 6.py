@@ -1,3 +1,8 @@
+#6. Faça um Programa que leia duas estruturas com 10 elementos cada. Gere uma terceira estrutura
+#de 20 elementos, cujos valores deverão ser compostos pelos elementos intercalados das duas 
+#estruturas
+
+
 vetor1 = []
 vetor2 = []
 vetor3 = []
