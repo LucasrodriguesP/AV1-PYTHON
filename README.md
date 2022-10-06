@@ -4,7 +4,7 @@ Peço as variáveis do enunciado e verifico elas, dependendo da verificação um
 
 [Lista I - Ex 2.py](https://github.com/LucasrodriguesP/AV1-PYTHON/blob/main/Trabalho%20AV1/Lista%20I%20-%20Ex%202.py)
 
-Se o peso seja maior que o limite, a multa é calculada e printada (if-else)
+Se o peso for maior que o limite, a multa é calculada e printada (if-else)
 
 [Lista I - Ex 6.py](https://github.com/LucasrodriguesP/AV1-PYTHON/blob/main/Trabalho%20AV1/Lista%20I%20-%20Ex%206.py)
 
