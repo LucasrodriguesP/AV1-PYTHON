@@ -1,0 +1,75 @@
+def conversao(hora,min):
+    match(hora):
+
+        case 23:
+            return f"11:{min} "
+        case 22:
+            return f"10:{min} "
+        case 21:
+            return f"9:{min} "
+        case 20:
+            return f"8:{min} "
+        case 19:
+            return f"7:{min} "
+        case 18:
+            return f"6:{min} "
+        case 17:
+            return f"5:{min} "
+        case 16:
+            return f"4:{min} "
+        case 15:
+            return f"3:{min} "
+        case 14:
+            return f"2:{min} "
+        case 13:
+            return f"1:{min} "
+        case 12:
+            return f"12:{min} "
+        case 11:
+            return f"11:{min} "
+        case 10:
+            return f"10:{min} "
+        case 9:
+            return f"9:{min} "
+        case 8:
+            return f"8:{min} "
+        case 7:
+            return f"7:{min} "
+        case 6:
+            return f"6:{min} "
+        case 5:
+            return f"5:{min} "
+        case 4:
+            return f"4:{min} "
+        case 3:
+            return f"3:{min} "
+        case 2:
+            return f"2:{min} "
+        case 1:
+            return f"1:{min} "
+        case 0:
+            return f"12:{min} "
+
+def saida(conversao,hora):
+    print(hora)
+    if hora >= 12:
+        info = "P.M"
+    else:
+        info = "A.M"
+    return conversao + info
+
+
+if __name__ == '__main__':
+    hora = 1
+    while (hora >=0):
+        hora = int(input("Digite a hora em notacao 24 ->"))
+        if (hora < 0 or hora>=24):
+            print("Hora invalida - programa finalizado")
+            break
+        minutos = int(input("Digite o minuto ->"))
+        if (minutos < 0 or minutos>=60):
+            print("minuto invalido - programa finalizado")
+            break
+        aux = conversao(hora,minutos)
+        print(saida(aux,hora))
+
