@@ -1,0 +1,12 @@
+
+def fazArea(baseM,basem,altura):
+	calculo = ((baseM + basem) * altura)/2
+	return calculo
+
+baseM = float(input("base maior -> "))
+basem = float(input("base menor -> "))
+altura = float(input("altura do trapezio -> "))
+
+area = fazArea(baseM, basem, altura)
+
+print(f"A área do trapézio é {area}")
