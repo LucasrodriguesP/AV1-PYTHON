@@ -51,7 +51,6 @@ def conversao(hora,min):
             return f"12:{min} "
 
 def saida(conversao,hora):
-    print(hora)
     if hora >= 12:
         info = "P.M"
     else:
