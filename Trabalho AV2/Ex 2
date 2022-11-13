@@ -1,0 +1,10 @@
+def soma_imposto(custo, taxa_imposto):
+    calculo = ((custo*taxa_imposto)/100)+custo
+    return calculo
+
+custo = float(input("Qual o preço do produto -> "))
+taxa_imposto = float(input("Qual o valor do imposto em porcentagem sem % ->  "))
+
+valorFinal = soma_imposto(custo,taxa_imposto)
+print(f"o preco final ficou em {valorFinal:.2f}")
+
